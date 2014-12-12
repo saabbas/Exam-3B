@@ -151,7 +151,7 @@
     <value>as a salary in your first job!</value>
   </data>
   <data name="selectLanguageLabel.Text" xml:space="preserve">
-    <value>Please choose our language:</value>
+    <value>Please choose your language:</value>
   </data>
   <data name="submitButton.Text" xml:space="preserve">
     <value>Submit</value>

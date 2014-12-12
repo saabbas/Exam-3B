@@ -25,19 +25,19 @@
                     <td class="leftColumn">
             <asp:Label ID="selectLanguageLabel" runat="server" meta:resourcekey="selectLanguageLabel"></asp:Label>
             <br />
-            <asp:DropDownList ID="languageList1" runat="server">
-                <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
-                <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+            <asp:DropDownList ID="languageList1" runat="server" AutoPostBack="true">
                 <asp:ListItem Value="en-US">English</asp:ListItem>
+                <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
+                <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>                
                 <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
             </asp:DropDownList>
             <br />
             <br />
 
-            <asp:DropDownList ID="languageList2" runat="server">
-                <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
-                <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+            <asp:DropDownList ID="languageList2" runat="server" AutoPostBack="true">
                 <asp:ListItem Value="en-US">English</asp:ListItem>
+                <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
+                <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>              
                 <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
             </asp:DropDownList>
                     </td>
