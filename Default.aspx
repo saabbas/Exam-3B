@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
 
 <!DOCTYPE html>
 
@@ -12,10 +12,10 @@
     <div>
         <div>
             <h1> 
-                <asp:Label ID="welcomeLabel" runat="server" Text="Welcome to"></asp:Label>
+                <asp:Label ID="welcomeLabel" runat="server" meta:resourcekey="welcomeLabel"></asp:Label>
                 &nbsp;MSCI:3300</h1>
             <h2>
-                <asp:Label ID="classNameLabel" runat="server" Text="Software Design and Development"></asp:Label>
+                <asp:Label ID="classNameLabel" runat="server" meta:resourcekey="classNameLabel"></asp:Label>
             </h2>
             <hr />
         </div>
@@ -44,7 +44,7 @@
                     <td class="rightCoumn">
                     <br />
                         <!-- Before submit -->
-                        <asp:Label ID="myNameIsLabel" runat="server" meta:resourcekey="myNameIsLabel"></asp:Label>&nbsp;
+                        &nbsp;&nbsp;<asp:Label ID="myNameIsLabel" runat="server" meta:resourcekey="myNameIsLabel"></asp:Label>&nbsp;
                         <asp:TextBox ID="myNameIsTextBox" runat="server"></asp:TextBox>
                         <br />
                         <br />
@@ -52,7 +52,7 @@
                         &nbsp;&nbsp;<asp:Label ID="helloLabel" runat="server" meta:resourcekey="helloLabel"></asp:Label>
                         &nbsp;&nbsp;<asp:Label ID="mrMrsLabel" runat="server" meta:resourcekey="mrMrsLabel"></asp:Label>&nbsp;
                         &nbsp;&nbsp;<asp:Label ID="nameLabel" runat="server"></asp:Label>
-                        <br />
+                        
                         <!-- Before submit -->
                         &nbsp;&nbsp;<asp:Label ID="iAmLabel" runat="server" meta:resourcekey="iAmLabel"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:RadioButton ID="femaleRadioButton" runat="server" />
@@ -69,11 +69,11 @@
                         &nbsp;&nbsp;<asp:Label ID="planLabel" runat="server" meta:resourcekey="planLabel"></asp:Label>
                         <br />
                         <!-- After submit -->
-                        &nbsp;&nbsp;<asp:Label ID="wishLabel" runat="server" meta:resourcekey="wishLabel"></asp:Label>&nbsp;
-                        &nbsp;&nbsp;<asp:Label ID="currencyLabel" runat="server" meta:resourcekey="currencyLabel"></asp:Label>&nbsp;&nbsp;
-                        &nbsp;&nbsp;<asp:Label ID="moneyLabel" runat="server" meta:resourcekey="moneyLabel"></asp:Label>&nbsp;
+                        &nbsp;&nbsp;<asp:Label ID="wishLabel" runat="server" meta:resourcekey="wishLabel"></asp:Label>
+                        &nbsp;<asp:Label ID="currencyLabel" runat="server" meta:resourcekey="currencyLabel"></asp:Label>
+                        &nbsp;<asp:Label ID="moneyLabel" runat="server" meta:resourcekey="moneyLabel"></asp:Label>
                         &nbsp;&nbsp;<asp:Label ID="salaryLabel" runat="server" meta:resourcekey="salaryLabel"></asp:Label>
-                        <br />
+                        
                         <!-- Before submit -->
                         &nbsp;&nbsp;<asp:Calendar ID="Calendar" runat="server" Width="250px"></asp:Calendar>
                         <br />
