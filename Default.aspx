@@ -44,7 +44,7 @@
                     <td class="rightCoumn">
                     <br />
                         <!-- Before submit -->
-                        &nbsp;&nbsp;<asp:Label ID="myNameIsLabel" runat="server" meta:resourceskey="myNameIsLabel"></asp:Label>&nbsp;
+                        <asp:Label ID="myNameIsLabel" runat="server" meta:resourcekey="myNameIsLabel"></asp:Label>&nbsp;
                         <asp:TextBox ID="myNameIsTextBox" runat="server"></asp:TextBox>
                         <br />
                         <br />
