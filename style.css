@@ -1,0 +1,30 @@
+﻿body {
+}
+
+h1 {
+    text-align:center
+}
+
+h2 {
+    text-align:center
+}
+
+.table {
+    border-color:black;
+    border-style:solid;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.leftColumn {
+    width:175px;
+    text-align:center;
+    border-right:solid;
+}
+
+.rightCoumn {
+    width:500px;
+    text-align:left;
+    border-left:solid;
+}
+
