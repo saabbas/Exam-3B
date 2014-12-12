@@ -55,6 +55,7 @@ Partial Class _Default
         languageList2.Visible = True
 
         submitButton.Visible = False
+        languageList1.Visible = False
 
         myNameIsLabel.Visible = False
         myNameIsTextBox.Visible = False
